@@ -1,0 +1,19 @@
+{
+  "name": "CopyWO",
+  "version": "1.0",
+  "description": "In T-Corp copy the Workorder-Number of the ticket to the clipboard.",
+  "manifest_version": 3,
+  "author": "DJUNKERS",
+
+  "content_scripts": [
+    {
+      "matches": ["https://t.corp.amazon.com/*"],
+      "js": ["scripts/content.js"],
+      "css": ["scripts/style.css"]
+    }
+  ],
+
+  "action": {
+    "default_title": "CopyWO"
+  }
+}
