@@ -4,9 +4,6 @@ let isBtn = false;
 const btn = document.createElement("button");
 btn.id = "copybtn";
 btn.innerText = "Copy WO";
-btn.style.padding = "0.3rem";
-btn.style.cursor = "pointer";
-btn.style.marginLeft = "1rem";
 
 const snack = document.createElement("div");
 snack.id = "snack";
